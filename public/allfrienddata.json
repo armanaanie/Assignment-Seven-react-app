@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Ayesha Rahman",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "ayesha.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["school", "best friend"],
+    "bio": "We studied together in high school in Dhaka. She now works as a graphic designer and loves photography.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Tanvir Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "tanvir.hasan@yahoo.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["university", "roommate"],
+    "bio": "My university roommate. We used to code together late at night and still share tech ideas.",
+    "goal": 14,
+    "next_due_date": "2026-04-17"
+  },
+  {
+    "id": 3,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat.jahan@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["colleague", "marketing"],
+    "bio": "Works in the marketing team at my previous company. Always shares useful career advice.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "name": "Rafiq Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "rafiq.ahmed@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["neighbor", "childhood"],
+    "bio": "Grew up in the same neighborhood. We used to play cricket every evening.",
+    "goal": 15,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 5,
+    "name": "Sadia Karim",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sadia.karim@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["university", "project partner"],
+    "bio": "Worked on multiple group projects together in university. Very organized and helpful.",
+    "goal": 14,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 6,
+    "name": "Imran Chowdhury",
+    "picture": "https://randomuser.me/api/portraits/men/54.jpg",
+    "email": "imran.chowdhury@gmail.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["gym", "fitness"],
+    "bio": "Met at the gym. We motivate each other to stay consistent with workouts.",
+    "goal": 7,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 7,
+    "name": "Farhana Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/29.jpg",
+    "email": "farhana.sultana@yahoo.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["family friend"],
+    "bio": "Family friend who recently started her own small business. I try to support her work.",
+    "goal": 14,
+    "next_due_date": "2026-04-11"
+  },
+  {
+    "id": 8,
+    "name": "Mahmudul Islam",
+    "picture": "https://randomuser.me/api/portraits/men/81.jpg",
+    "email": "mahmudul.islam@gmail.com",
+    "days_since_contact": 9,
+    "status": "on-track",
+    "tags": ["freelance", "developer"],
+    "bio": "Freelance developer I collaborated with on a web project. Great at solving complex problems.",
+    "goal": 12,
+    "next_due_date": "2026-04-22"
+  },
+  {
+  "id": 9,
+  "name": "Shakib Al Hasan",
+  "picture": "https://randomuser.me/api/portraits/men/23.jpg",
+  "email": "shakib.alhasan@gmail.com",
+  "days_since_contact": 11,
+  "status": "almost due",
+  "tags": ["cricket", "club friend"],
+  "bio": "Met through a local cricket club. We still catch up during matches and tournaments.",
+  "goal": 14,
+  "next_due_date": "2026-04-18"
+},
+{
+  "id": 10,
+  "name": "Maliha Anjum",
+  "picture": "https://randomuser.me/api/portraits/women/18.jpg",
+  "email": "maliha.anjum@gmail.com",
+  "days_since_contact": 2,
+  "status": "on-track",
+  "tags": ["online friend", "design"],
+  "bio": "Connected through an online design community. We often share feedback on each other's work.",
+  "goal": 7,
+  "next_due_date": "2026-04-21"
+}
+]
