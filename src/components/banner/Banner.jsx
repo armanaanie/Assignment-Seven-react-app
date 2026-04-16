@@ -11,7 +11,7 @@ const Banner = () => {
                         relationships that matter most.
                     </p>
                     <button className="btn bg-green-500 text-white"> <IoAdd />Add Friend</button>
-                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-7'>
+                    <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-3 mt-7 place-items-center'>
                         <div className=" bg-base-100 w-60 shadow-sm">
                            <div className="flex flex-col justify-center items-center gap-3 p-3">
                             <h2 className="text-3xl font-bold">10</h2>
