@@ -9,7 +9,7 @@ const Navbar = () => {
         <div className="flex justify-between bg-base-100 shadow-sm p-4">
   <div className="">
    
-    <img src={Logo} alt="" srcset="" />
+    <img src={Logo} alt="" />
   </div>
   
   <div className="flex gap-3">

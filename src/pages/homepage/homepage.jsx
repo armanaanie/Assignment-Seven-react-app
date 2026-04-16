@@ -8,7 +8,8 @@ const Homepage = () => {
     return (
         <div>
            <Banner/>
-          <Suspense fallback={<div>Loading....</div>}><AllFriends friendsPromise={friendsPromise}/></Suspense> 
+          <Suspense fallback={<div className='flex justify-center items-center m-20 gap-2'><span className="loading loading-spinner text-neutral"></span><span className="loading loading-spinner text-secondary"></span>
+<span className="loading loading-spinner text-accent"></span></div>}><AllFriends friendsPromise={friendsPromise}/></Suspense> 
 </div>
         
     );
