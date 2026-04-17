@@ -18,7 +18,7 @@ const Stats = () => {
 
 
     return (
-<div className="my-20"> <div style={{ width: "100%", height: '800px' }}> <ResponsiveContainer width="100%" height="100%"> <PieChart>
+<div className="my-20"> <div style={{ width: "100%", height: '400px' }}> <ResponsiveContainer width="100%" height="100%"> <PieChart>
             <Pie
 
                 data={data}
