@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { FriendContext } from '../../friendContext/FriendContext';
 import TimeLineDetails from '../../components/TimeLineDetails/TimeLineDetails';
-import FilteredTimeLine from './FilteredTimeLine';
+
 import { useState } from 'react';
 
 
