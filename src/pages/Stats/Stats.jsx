@@ -18,7 +18,7 @@ const Stats = () => {
 
 
     return (
-<div className="my-20"> <div style={{ width: "100%", height: '400px' }}> <ResponsiveContainer width="100%" height="100%"> <PieChart>
+<div className="my-20 flex flex-col gap-3"> <h1 className="font-bold text-3xl bg-base-100  shadow-sm my-3 px-3">Frienship Analytics</h1><div className="bg-base-100  shadow-sm"><h1 className="font-semibold font-2xl py-3 px-1">By Interaction type</h1><div className="w-full h-[400px] bg-base-100  shadow-sm"> <ResponsiveContainer width="100%" height="100%">  <PieChart>
             <Pie
 
                 data={data}
@@ -40,12 +40,22 @@ const Stats = () => {
             <div className="flex gap-3 items-center justify-center">
                 {data.map((info) => (
                     <div  className="flex items-center gap-2   border-none " key={info.name}>
-                        <div className="w-3 h-3 "style={{backgroundColor:info.color}}></div>
+                        <div className="w-3 h-3 "style={{backgroundColor:info.color}}>
+
+                        </div>
                         <span className="font-semibold">{info.name}</span>
                     </div>
                 ))}
+                
             </div>
-        </div></div>
+            
+            
+            </div>
+            
+        </div>
+        
+        
+        </div>
        
         
 

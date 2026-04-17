@@ -6,7 +6,7 @@ import { CiClock2 } from "react-icons/ci";
 import { GoGraph } from "react-icons/go";
 const Navbar = () => {
     return (
-        <div className="flex justify-between bg-base-100 shadow-sm p-4">
+        <div className="flex flex-col gap-3 items-center md:flex-row justify-between bg-base-100 shadow-sm p-4">
   <div className="">
    
     <img src={Logo} alt="" />

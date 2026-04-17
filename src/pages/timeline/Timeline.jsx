@@ -13,12 +13,12 @@ const Timeline = () => {
     return (
         <div className='my-5 shadow-sm p-3'>
             <h2 className='font-bold text-2xl my-3 '>Timeline</h2>
-            <div className="dropdown dropdown-bottom dropdown-end">
+            <div className="dropdown dropdown-start">
   <div tabIndex={0} role="button" className="btn m-1">Filter Timeline</div>
   <ul tabIndex="-1" className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
     <li><button onClick={()=>setFilter("all")}>All</button></li>
     <li><button onClick={()=>setFilter("call")}>Call</button></li>
-    <li><button onClick={()=>setFilter("video")}>Video</button></li>
+    <li><button onClick={()=>setFilter("videocall")}>Video</button></li>
     <li><button onClick={()=>setFilter("text")}>Text</button></li>
     
   </ul>
