@@ -1,5 +1,5 @@
 import React, { createContext, useState } from 'react';
-
+import {  toast } from 'react-toastify';
 export const FriendContext = createContext();
 
 const FriendProvider = ({ children }) => {
@@ -15,7 +15,7 @@ const FriendProvider = ({ children }) => {
       time:new Date().toLocaleString(),
       }
     setTimeLine([...timeLine,newData])
-    alert(`you called ${expectedFriend.name}`)
+    toast(`You ${type}ed ${expectedFriend.name}`)
   };
 
   const data = {
