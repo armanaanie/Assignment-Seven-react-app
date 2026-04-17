@@ -1,16 +1,42 @@
-# React + Vite
+# ProjectName: Friend Activity Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+##  Project Description
 
-Currently, two official plugins are available:
+Friend Activity Tracker is a React-based web application that allows users to manage and monitor their interactions with friends. Users can log calls, video calls, and text activities, view them in a timeline, and analyze their communication patterns through visual statistics like charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Technologies Used
 
-## Expanding the ESLint configuration
+  React.js
+  Tailwind CSS
+  Recharts (for data visualization)
+  React Context API (state management)
+  Vite (fast build tool)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+##  Key Features
+
+### 1. Timeline Tracking
+
+Displays all user interactions (Call, Video, Text)
+Shows friend details, time, and activity type.
+Supports filtering based on activity type.
+
+### 2.  Interactive Stats Dashboard
+
+ Visual pie chart representation of activities
+ Color-coded breakdown of calls, videos, and texts
+
+
+### 3.  Smart Filtering System
+
+Filter timeline by Call, Video, or Text.
+Clean dropdown UI for better user experience.
+ Dynamic rendering without page reload.
+
+
+
+
+
+
