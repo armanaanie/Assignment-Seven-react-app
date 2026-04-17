@@ -23,7 +23,7 @@ const Banner = () => {
                     
                      <div className="bg-base-100 w-60 shadow-sm">
                            <div className="flex flex-col justify-center items-center gap-3 p-3">
-                            <h2 className="text-3xl font-bold">3</h2>
+                            <h2 className="text-3xl font-bold">4</h2>
                             <p>On Track</p>
 
                           </div>
